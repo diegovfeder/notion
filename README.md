@@ -1,2 +1,2 @@
 # Notion
-This repo contains mostly `html` files to be embedded in Notion app with Github Pages.
+This repo contains mostly `html` files to be embedded in Notion via Github Pages.
