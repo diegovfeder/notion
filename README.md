@@ -1,2 +1,2 @@
-# notion
-Trying out a simple project to render a html element inside notion. 
+# Notion
+This repo contains mostly `html` files to be embedded in Notion app with Github Pages.
