@@ -1,13 +1,13 @@
 <html>
   <style>
     .container {
-      background-color: "#fff";
+      background-color: #fff;
       border-radius: 8px;
-      color: "#000";
+      color: #000;
       width: 100%;
     }
     .container_head {
-      background-color: "#c9e5df";
+      background-color: #c9e5df;
       padding: 12px 16px;
     }
     .container_body {
@@ -28,7 +28,47 @@
       width: 80px;
       display: inline-block;
     }
+    .profile_image {
+      margin: 12px 0 8px;
+      width: 56px;
+      height: 56px;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      background-clip: content-box;
+      border: 2px solid rgba(0,0,0,0);
+      border-radius: 50%;
+    }
+    profile_name {
+      font-weight: 400;
+      font-size: 2.4rem;
+      line-height: 1.33333;
+      color: rgba(0,0,0,0.9);
+    }
+    profile_link {
+     color: #000; 
+    }
+    profile_headline {
+      padding: 0 0 4px;
+      font-size: 1.4rem;
+      line-height: 1.42857;
+      font-weight: 400;
+      color: rgba(0,0,0,0.9);
+      color: inherit;
+    }
+    profile_company_info {
+      padding: 0 0 4px;
+      font-size: 1.2rem;
+      line-height: 1.33333;
+      font-weight: 400;
+      color: rgba(0,0,0,0.6);
+      color: inherit; 
+    }
+    profile_company_link {
+      color: #000;
+    }
     .footer_button {
+      background-color: rgba(112,181,249,0.3);
+      color: #004182;
       background-color: rgba(0,0,0,0);
       border: 0;
       border-radius: 2px;
@@ -46,7 +86,24 @@
       outline-width: 2px;
       padding: 0 16px;
       position: relative;
-      text-align: center; 
+      text-align: center;
+      text-decoration: none;
+      -webkit-transition-duration: 167ms;
+      transition-duration: 167ms;
+      -webkit-transition-property: background-color,color,-webkit-box-shadow;
+      transition-property: background-color,color,-webkit-box-shadow;
+      transition-property: background-color,box-shadow,color;
+      transition-property: background-color,box-shadow,color,-webkit-box-shadow;
+      -webkit-transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+      transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+      vertical-align: middle;
+      z-index: 0;
+      -webkit-box-shadow: inset 0 0 0 1px #0073b1,inset 0 0 0 2px rgba(0,0,0,0),inset 0 0 0 1px rgba(0,0,0,0);
+      box-shadow: inset 0 0 0 1px #0073b1,inset 0 0 0 2px rgba(0,0,0,0),inset 0 0 0 1px rgba(0,0,0,0);
+      border-radius: 24px;
+      -webkit-box-shadow: inset 0 0 0 1px #0a66c2;
+      box-shadow: inset 0 0 0 1px #0a66c2;
+      color: #0a66c2;
     }
   </style>
   <body>
