@@ -6,9 +6,12 @@
       color: "#000";
       width: 100%;
     }
-    .container_header {
+    .container_head {
       background-color: "#c9e5df";
       padding: 12px 16px;
+    }
+    .container_body {
+      padding: 0 16px;
     }
     .header_text {
       clip: rect(1px, 1px, 1px, 1px);
@@ -25,10 +28,30 @@
       width: 80px;
       display: inline-block;
     }
+    .footer_button {
+      background-color: rgba(0,0,0,0);
+      border: 0;
+      border-radius: 2px;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      color: #0073b1;
+      cursor: pointer;
+      display: inline-block;
+      font-size: 1.6rem;
+      font-weight: 600;
+      font-family: inherit;
+      height: 32px;
+      line-height: 32px;
+      overflow: hidden;
+      outline-width: 2px;
+      padding: 0 16px;
+      position: relative;
+      text-align: center; 
+    }
   </style>
   <body>
     <div class="container">
-      <div class="container_header">
+      <div class="container_head">
         <span class="header_text">LinkedIn</span>
         <icon class="header_icon">
           <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 84 21" preserveAspectRatio="xMinYMin meet" version="1.1" focusable="false">
@@ -47,6 +70,23 @@
           </svg>  
         </icon>
       </div>
+      <div class="container_body">
+        <img class="profile_image" src="https://media-exp1.licdn.com/dms/image/C4D03AQFALCtIXdA-OA/profile-displayphoto-shrink_200_200/0/1599910843044?e=1638403200&amp;v=beta&amp;t=F_KSPRgQGLa_-qfwHRu04qVlicS5iBxjRf02Kvidxvo" alt="Diego Feder">
+        <h3 class="profile_name" itemprop="name">
+          <a class="profile_link" href="https://br.linkedin.com/in/diego-feder-287b418b/en-us">
+            Diego Feder
+          </a>
+        </h3>
+        <h4 class="profile_headline">
+          @diegovfeder - Software Engineer | Frontend &amp; Mobile
+        </h4>
+        <h4 class="profile_company_info">
+          <a href="https://www.linkedin.com/company/dextra-digital">Dextra</a>
+        </h4>
+      </div>
+      <a class="footer_button" href="https://br.linkedin.com/in/diego-feder-287b418b/en-us">
+          View profile
+      </a>
     </div>
   </body>
 </html>
