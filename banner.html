@@ -3,7 +3,7 @@
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
   </head>
   <body>    
-    <div class="bg-gray-100 rounded-xl p-8">
+    <div class="md:flex bg-gray-100 rounded-xl p-8">
       <img class="w-32 h-32 rounded-full mx-auto" src="profile.png" alt="Diego Feder Profile Image">
       <div class="pt-6 text-center space-y-4">
         <div class="text-lg text-black font-bold">
@@ -12,13 +12,23 @@
         <div class="text-md text-gray-500 font-semibold">
           Software Engineer | Frontend &amp; Mobile
         </div> 
-        <div class="rounded-full border border-pink-200">
-          <h3 class="text-sm text-gray-700 font-regular">
-            📧 E-mail: diegovfeder@gmail.com
-          </h3>
-          <h3 class="text-sm text-gray-700 font-regular">
-            📱 Phone: +55(41)98847-2037
-          </h3>
+        <div class="rounded-full bg-white p-4">
+          <div>
+            <span class="mx-4">
+              📧
+            </span>
+            <span class="text-base font-normal">
+              E-mail: diegovfeder@gmail.com
+            </span>
+          </div>
+          <div>
+            <span class="mx-4">
+              📱
+            </span>          
+            <span class="text-base font-normal">
+              Phone: +55(41)98847-2037
+            </span>
+          </div>
         </div>
         <div class="inline-flex">
           <button class="mx-2 px-4 py-1 text-sm text-pink-600 font-semibold rounded-full border border-pink-200 hover:text-white hover:bg-pink-600 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-pink-600 focus:ring-offset-2">
